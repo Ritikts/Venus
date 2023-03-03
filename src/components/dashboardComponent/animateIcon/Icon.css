@@ -1,0 +1,211 @@
+/* Loading bar animation  */
+
+#loading-one {
+  animation: loading-bar-morph 3s linear 0.1s infinite;
+  transform-origin: bottom;
+}
+
+#loading-two {
+  animation: loading-bar-morph 3s linear 0.3s infinite;
+  transform-origin: bottom;
+}
+
+#loading-three {
+  animation: loading-bar-morph 3s linear 0.6s infinite;
+  transform-origin: bottom;
+}
+
+#loading-four {
+  animation: loading-bar-morph 3s linear 0.8s infinite;
+  transform-origin: bottom;
+}
+
+#loading-five {
+  animation: loading-bar-morph 3s linear 1s infinite;
+  transform-origin: bottom;
+}
+
+@keyframes loading-bar-morph {
+  0% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+
+
+/* Welcome text animation  */
+
+
+.drop-in {
+  animation: drop-in 1s ease 100ms forwards;
+}
+
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+
+
+/* Fingerprint animation  */
+
+
+@keyframes finger-1 {
+  0% {
+    stroke-dashoffset: 74.03907012939453px;
+    stroke-dasharray: 74.03907012939453px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 74.03907012939453px;
+  }
+}
+
+.finger-1 {
+  animation: finger-1 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0s
+    alternate-reverse both infinite;
+}
+
+@keyframes finger-2 {
+  0% {
+    stroke-dashoffset: 121.56929016113281px;
+    stroke-dasharray: 121.56929016113281px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 121.56929016113281px;
+  }
+}
+
+.finger-2 {
+  animation: finger-2 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.24s
+    alternate-reverse both infinite;
+}
+
+@keyframes finger-3 {
+  0% {
+    stroke-dashoffset: 310.4759521484375px;
+    stroke-dasharray: 310.4759521484375px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 310.4759521484375px;
+  }
+}
+
+.finger-3 {
+  animation: finger-3 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s
+    alternate-reverse both infinite;
+}
+
+@keyframes finger-4 {
+  0% {
+    stroke-dashoffset: 57.23271942138672px;
+    stroke-dasharray: 57.23271942138672px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 57.23271942138672px;
+  }
+}
+
+.finger-4 {
+  animation: finger-4 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s alternate
+    both infinite;
+}
+
+@keyframes finger-5 {
+  0% {
+    stroke-dashoffset: 142.41888427734375px;
+    stroke-dasharray: 142.41888427734375px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 142.41888427734375px;
+  }
+}
+
+.finger-5 {
+  animation: finger-5 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s
+    alternate-reverse both infinite;
+}
+
+
+
+/* WaveThree animation  */
+
+
+@keyframes waveThree-1 {
+  0% {
+    stroke-dashoffset: 1886.984375px;
+    stroke-dasharray: 1886.984375px;
+  }
+
+  100% {
+    stroke-dashoffset: 3773.96875px;
+    stroke-dasharray: 1886.984375px;
+  }
+}
+
+.waveThree-1 {
+  animation: waveThree-1 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0s
+    alternate-reverse both infinite;
+}
+
+@keyframes waveThree-2 {
+  0% {
+    stroke-dashoffset: 1886.984375px;
+    stroke-dasharray: 1886.984375px;
+  }
+
+  100% {
+    stroke-dashoffset: 3773.96875px;
+    stroke-dasharray: 1886.984375px;
+  }
+}
+
+.waveThree-2 {
+  animation: waveThree-2 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s
+    alternate-reverse both infinite;
+}
+
+
+
+/* Wave animation  */
+
+ @keyframes wave-1 {
+    0% {
+      stroke-dashoffset: 5.1267rem;
+      stroke-dasharray: 5.1267rem;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+      stroke-dasharray: 5.1267rem;
+    }
+  }
+  
+  .wave-1 {
+    animation: wave-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s  alternate-reverse both infinite;
+  }
+  
