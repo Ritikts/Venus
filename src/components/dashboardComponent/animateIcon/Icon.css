@@ -129,19 +129,19 @@
 }
 
 .finger-4 {
-  animation: finger-4 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s alternate
+  animation: finger-4 2s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s alternate-reverse
     both infinite;
 }
 
 @keyframes finger-5 {
   0% {
-    stroke-dashoffset: 142.41888427734375px;
-    stroke-dasharray: 142.41888427734375px;
+    stroke-dashoffset: 8.9012rem;
+    stroke-dasharray: 8.9012rem;
   }
 
   100% {
     stroke-dashoffset: 0;
-    stroke-dasharray: 142.41888427734375px;
+    stroke-dasharray: 8.9012rem;
   }
 }
 
@@ -157,13 +157,13 @@
 
 @keyframes waveThree-1 {
   0% {
-    stroke-dashoffset: 1886.984375px;
-    stroke-dasharray: 1886.984375px;
+    stroke-dashoffset: 117.9365rem;
+    stroke-dasharray: 117.9365rem;
   }
 
   100% {
-    stroke-dashoffset: 3773.96875px;
-    stroke-dasharray: 1886.984375px;
+    stroke-dashoffset: 235.873rem;
+    stroke-dasharray: 117.9365rem;
   }
 }
 
@@ -174,13 +174,13 @@
 
 @keyframes waveThree-2 {
   0% {
-    stroke-dashoffset: 1886.984375px;
-    stroke-dasharray: 1886.984375px;
+    stroke-dashoffset: 117.9365rem;
+    stroke-dasharray: 117.9365rem;
   }
 
   100% {
-    stroke-dashoffset: 3773.96875px;
-    stroke-dasharray: 1886.984375px;
+    stroke-dashoffset: 235.873rem;
+    stroke-dasharray: 117.9365rem;
   }
 }
 
